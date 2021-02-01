@@ -1,0 +1,153 @@
+@import "common.css";
+
+*{
+    box-sizing: border-box;
+}
+.wrapper, header{
+    width: 950px;
+    margin: 0 auto;
+}
+
+header{
+    width: 1080px;
+    margin-top: 25px;
+}
+
+
+header .logo{
+    height: 30px;
+}
+
+header .logo h1{
+    margin: 0;
+}
+
+header .logo h1 a{
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    padding-top: 30px;
+    background: url(../img/logo_db.png) center/100% 100% no-repeat;
+    overflow: hidden;
+}
+
+header .search{
+    height: 30px;
+    border: 1px solid #c3c3c3;
+    margin-left: 32px;
+    position: relative;
+    
+}
+
+header .search .keyword {
+    outline: none;
+    border: none;
+    width: 260px;
+    height: 28px;
+    vertical-align: top;
+}
+
+header .search .keyword::placeholder{
+    color: #ccc;
+}
+
+header .search .search-action{
+    width: 28px;
+    height: 28px;
+    border: 0;
+    
+    outline: none;
+    margin: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+header .channel-nav ul{
+    
+    list-style:none;
+    
+}
+
+header .channel-nav {
+    padding: 5px  0;
+
+}
+
+header .channel-nav  a{
+    float: left;
+    width: 40px;
+    height: 20px;
+    background: url("../img/anony_nav_logo@2x.png") left top / 463px 20px no-repeat;
+    margin-left: 20px;
+}
+
+header .channel-nav a:nth-child(2){
+
+    background-position: -60px;
+}
+header .channel-nav a:nth-child(3){
+
+    background-position: -120px;
+}
+header .channel-nav a:nth-child(4){
+
+    background-position: -180px;
+}
+header .channel-nav a:nth-child(5){
+
+    background-position: -240px;
+}
+header .channel-nav a:nth-child(6){
+
+    background-position: -300px;
+}
+
+header .channel-nav a:nth-child(7){
+
+    width: 49px;
+    background-position: -420px;
+}
+
+.banner{
+    height: 320px;
+    margin-top: 30px;
+    background: url("../img/banner-bg.jpg")  calc(50% - 320px) top / auto 100% no-repeat,#edf4ed;
+    position: relative;
+}
+
+.banner .title div{
+    position: absolute;
+    left: calc(50%);
+    top: calc(50% - 60px);
+}
+
+.banner .title h2{
+    font-weight: normal;
+}
+
+.banner .title a{
+    display: inline-block;
+    outline: none;
+    line-height: 32px;
+    text-decoration: none;
+    height: 32px;
+    font-size: 12px;
+    padding: 0 14px;
+    color: white;
+    background-color: #00B51D;
+    border: none;
+    border-radius: 4px;
+    vertical-align:top;
+    margin-top: 1px;
+}
+
+.banner .title img{
+    width: 32px;
+    height: 32px;
+}
+
+.banner iframe{
+    height: 320px;
+    width: 320px;
+    
+}

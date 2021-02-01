@@ -1,0 +1,111 @@
+@import "common.css";
+
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 300px;;
+    height: 300px;
+    line-height: 2;
+    padding: 30px 10px 10px;
+    color: #9b9b9b;
+}
+
+.container .login-sign .tab-box{
+    border-bottom: 1px solid #ececec;
+    font-size: 14px;
+  
+}
+
+.container .login-sign .tab-box span{
+    float: left;
+    width: 140px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container .login-sign .tab-box .selected{
+    font-weight: bold;
+    color: #333;
+    border-bottom: 1px solid #494949;
+    margin-bottom: -1px;
+}
+
+.container .login-sign .form-item{
+    width: 280px;
+    font-size: 10px;
+    margin-top: 12px;
+    position: relative;
+}
+
+.container .login-sign .form-item input{
+    width: 100%;
+    border: 1px solid #e4e6e5;
+    height: 34px;
+    font-size: 13px;
+    border-radius: 3px;
+    outline: none;
+    padding-left: 10px;
+    
+}
+
+.container .login-sign .form-item:nth-child(2) div{
+    position: absolute;
+    width: 46px;
+    height: 22px;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 22px;
+    font-weight: bold;
+    font-size: 14px;
+    border-right: 1px solid #ccc;
+    margin-top: 6px;
+    color: #000;
+    cursor: pointer;
+}
+
+.container .login-sign .form-item:first-child{
+    line-height: 1;
+    font-size: 8px;
+    margin-top: 16px;
+}
+
+.container .login-sign .form-item:nth-child(2) input{
+    padding-left: 56px;
+}
+
+.container .login-sign .form-item:nth-child(3) a{
+    position: absolute;
+    right: 8px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.container .login-sign .form-item a{
+    color: #41ac52;
+    text-decoration: none;
+}
+
+
+.container .login-sign .form-item button{
+    width: 100%;
+    border-radius: 3px;
+    height: 32px;
+    border: none;
+    outline: none;
+    background-color: #41ac52;
+    color: #ffffff;
+}
+
+.container .login-sign .form-item:last-child{
+    text-align: right;
+    margin-top: 6px;
+}
+
+.container .login-sign .third-login{
+    font-size: 12px;
+    margin-top: 14px;
+    border-top: 1px solid #bbb;
+    padding-top: 8px;
+}
